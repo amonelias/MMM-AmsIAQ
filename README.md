@@ -1,12 +1,15 @@
 # MMM-AmsIAQ
 A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor.
 
-# Dependencies
+## Dependencies
 
 - [pigpio](https://github.com/joan2937/pigpio)
 
-# Config
+## Installation
+1. Navigate to the `/modules` folder of you MagicMirror²
+2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-AmsIAQ.git`
 
+## Config
 <table>
   <thead>
     <tr>
@@ -29,3 +32,19 @@ A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor
     </tr>
   </tbody>
 </table>
+
+To use this module, add it to the modules array in the `config/config.js` file:
+```javascript
+  {
+    module: 'MMM-WebUntis',
+    position: 'top_right', // any possible region
+    config: {
+      refreshTime: 10000,
+      i2cbus: 1,
+      fontSize: "medium",
+    },
+  },
+```
+
+## Update
+Navigate to the folder of the module in the `/modules` folder and get the latest version using the command `git pull`.
