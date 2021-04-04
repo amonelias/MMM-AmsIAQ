@@ -36,7 +36,7 @@ A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor
 To use this module, add it to the modules array in the `config/config.js` file:
 ```javascript
   {
-    module: 'MMM-WebUntis',
+    module: 'MMM-AmsIAQ',
     position: 'top_right', // any possible region
     config: {
       refreshTime: 10000,
