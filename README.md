@@ -3,8 +3,6 @@ A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor
 
 # Dependencies
 
-- [python](https://www.python.org/)
-
 - [pigpio](https://github.com/joan2937/pigpio)
 
 # Config
