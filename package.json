@@ -2,7 +2,7 @@
     "name": "MMM-AmsIAQ",
     "version": "1.0.0",
     "description": "A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor.",
-    "main": "MMM-WebUntis.js",
+    "main": "MMM-AmsIAQ.js",
     "author": "amonelias",
     "license": "MIT",
     "repository": {
