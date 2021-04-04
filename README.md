@@ -8,6 +8,8 @@ A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor
 ## Installation
 1. Navigate to the `/modules` folder of you MagicMirror²
 2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-AmsIAQ.git`
+3. Install dependencies using the following command: `sudo apt-get install pigpio`
+4. Start the pigpio daemon using the following command: `sudo pigpiod`
 
 ## Config
 <table>
