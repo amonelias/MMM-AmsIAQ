@@ -27,7 +27,7 @@ A MagicMirror² module to read and display the data of the AMS-IAQ-CORE-C Sensor
     </tr>
     <tr>
       <td><code>fontSize</code></td>
-      <td><strong>Default: "medium"</strong><br>Options: <code>"small" "medium" "large"</code><br><br><strong>Type:</strong> <code>string</code></td>
+      <td><strong>Default: "medium"</strong><br>Options: <code>"small", "medium", "large"</code><br><br><strong>Type:</strong> <code>string</code></td>
     </tr>
   </tbody>
 </table>
